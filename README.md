@@ -1,118 +1,100 @@
-# MeetPro - Meeting Management Dashboard
+# MeetPro 🎤📊
 
-MeetPro is a modern, responsive meeting management dashboard built with React, TypeScript, and HeroUI. This project was created using the [HeroUI.chat](https://heroui.chat) platform, leveraging its powerful UI components and theming capabilities.
+Welcome to **MeetPro**, your modern meeting management dashboard. Built with **React**, **HeroUI**, and **Tailwind CSS**, MeetPro simplifies the process of scheduling, recording, and analyzing meetings. This tool is designed to enhance your productivity and streamline your meeting workflows.
 
-## Video Demo
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-blue)](https://github.com/felipegogo121/MeetPro/releases)
 
-🎥 [Watch MeetPro Demo](./docs/videos/demo.mov)
+## Table of Contents
 
-## Screenshots
-
-### Dashboard Overview
-![Dashboard Overview](./docs/screenshots/dashboard.png)
-*Main dashboard showing key metrics and analytics*
-
-### Meeting Management
-![Meeting Management](./docs/screenshots/meetings.png)
-*Meeting list and management interface*
-
-### Recording Management
-![Recording Management](./docs/screenshots/recordings.png)
-*Recording library and playback interface*
-
-### Transcript Management
-![Transcript Management](./docs/screenshots/transcripts.png)
-*Transcript viewer and management interface*
-
-### Insights & Analytics
-![Insights & Analytics](./docs/screenshots/insights.png)
-*Detailed analytics and insights dashboard*
-
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Features
 
-- 📊 Interactive Dashboard with key metrics
-- 📅 Meeting Management
-- 🎥 Recording Management
-- 📝 Transcript Management
-- 📈 Insights and Analytics
-- ⚙️ Settings Configuration
-- 🌓 Dark/Light Theme Support
-- 🎨 Modern UI with HeroUI Components
-- 📱 Fully Responsive Design
+- **Schedule Meetings**: Easily set up meetings with just a few clicks.
+- **Record Meetings**: Capture audio and video for later review.
+- **Analyze Meetings**: Use built-in analytics to gain insights from your meetings.
+- **Transcripts**: Automatically generate meeting transcripts for easy reference.
+- **User-Friendly Interface**: Navigate through a clean and intuitive dashboard.
 
-## Tech Stack
+## Technologies Used
 
-- React 18
-- TypeScript
-- HeroUI (@heroui/react, @heroui/use-theme)
-- TailwindCSS
-- React Router
-- Framer Motion
-- Recharts
-- Vite
+MeetPro utilizes a variety of technologies to deliver a seamless experience:
+
+- **React**: A JavaScript library for building user interfaces.
+- **HeroUI**: A modern UI component library for rapid development.
+- **Tailwind CSS**: A utility-first CSS framework for custom designs.
+- **TypeScript**: A superset of JavaScript that adds static types.
+- **Vite**: A fast build tool for modern web projects.
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone [your-repository-url]
-cd meetpro
-```
+To get started with MeetPro, follow these steps:
 
-2. Install dependencies:
-```bash
-npm install
-```
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/felipegogo121/MeetPro.git
+   ```
 
-3. Start the development server:
-```bash
-npm run dev
-```
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd MeetPro
+   ```
 
-4. Build for production:
-```bash
-npm run build
-```
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Project Structure
+4. **Run the Application**:
+   ```bash
+   npm run dev
+   ```
 
-```
-src/
-├── components/     # Reusable UI components
-├── hooks/         # Custom React hooks
-├── layouts/       # Layout components
-├── pages/         # Page components
-├── App.tsx        # Main application component
-└── main.tsx       # Application entry point
-```
+Your application will be running at `http://localhost:3000`.
 
-## Available Scripts
+## Usage
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run lint` - Run ESLint
-- `npm run preview` - Preview production build
+Once you have the application running, you can start scheduling meetings:
 
-## Environment Setup
+1. **Log In**: Use your credentials to access the dashboard.
+2. **Schedule a Meeting**: Click on the "Schedule" button and fill in the details.
+3. **Record a Meeting**: During the meeting, use the record feature to capture audio and video.
+4. **Access Transcripts**: After the meeting, view the generated transcript for reference.
+5. **Analyze Data**: Use the analytics section to gain insights from your meetings.
 
-The project uses Vite as the build tool. Make sure you have Node.js installed (version 16 or higher recommended).
+For more detailed instructions, please refer to the documentation within the application.
 
 ## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+We welcome contributions to MeetPro! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your forked repository.
+5. Open a pull request to the main repository.
+
+Please ensure your code follows the project's coding standards.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MeetPro is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-## Acknowledgments
+## Contact
 
-- Built with [HeroUI.chat](https://heroui.chat)
-- Powered by [Vite](https://vitejs.dev)
-- Styled with [TailwindCSS](https://tailwindcss.com)
+For questions or suggestions, please reach out:
 
+- **Email**: your.email@example.com
+- **GitHub**: [felipegogo121](https://github.com/felipegogo121)
+
+Check out our [Releases](https://github.com/felipegogo121/MeetPro/releases) for the latest updates and downloads.
+
+---
+
+Thank you for using MeetPro! We hope it enhances your meeting management experience.
